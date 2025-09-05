@@ -58,3 +58,19 @@ const data = [
 // })
 // console.log(title);
 // const titles =data.map(d => `<span>${d.title}</span>`)
+
+
+// join
+// const arr =['u','are','sad']
+// arr.push('!')
+// console.log(arr);
+// console.log(arr.join(' '));
+
+// filter
+// const num=[2,4,3,5,3,4,3,5]
+// const filter =num.filter(arr => arr!==3)
+// console.log(filter);
+
+const final= data.filter(d => d.id !== 'c3r4r51n9lno' )
+ console.log(final);
+
